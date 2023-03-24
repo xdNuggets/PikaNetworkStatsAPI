@@ -41,7 +41,7 @@ ___
 Example: `console.log(getFriends('not_Nuggets'));`<br>
 Output: 
 ``` 
-    [
+[
     { username: 'Titan_Leo', lastSeen: 1672495475354, online: false },
     { username: 'bene_e', lastSeen: 1678556917694, online: false },
     { username: 'Fournes_', lastSeen: 1674241486877, online: false },
