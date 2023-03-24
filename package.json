@@ -1,0 +1,11 @@
+{
+  "name": "pikastatsapi",
+  "version": "1.1.0",
+  "description": "A simple package which lets you fetch results from PikaNetwork's Statistic API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Joshh",
+  "license": "ISC"
+}
