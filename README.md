@@ -15,7 +15,7 @@ ___
 
 Example: `console.log(getRanks('not_Nuggets'));`
 Output: 
-```json
+```
     [
         {
           name: 'games3',
@@ -40,7 +40,7 @@ ___
 
 Example: `console.log(getFriends('not_Nuggets'));`
 Output: 
-    ```json 
+```json 
     [
     { username: 'Titan_Leo', lastSeen: 1672495475354, online: false },
     { username: 'bene_e', lastSeen: 1678556917694, online: false },
@@ -52,7 +52,8 @@ Output:
     { username: 'CreamCheese', lastSeen: 1679602722638, online: false },
     { username: 'Jitterinq', lastSeen: 1679509235577, online: false },
     { username: 'zornk', lastSeen: 1675959709939, online: false }
-    ]```
+]
+```
 
 
 ___
@@ -69,7 +70,7 @@ ___
 
 Example: `console.log(getClan('not_Nuggets'));`
 Output:
-    ```json {
+```json {
         name: 'DEMONIC',
         tag: 'DEMONIC',
         currentTrophies: 0,
@@ -86,7 +87,8 @@ Output:
         ],
         owner: { username: 'Skq1er', lastSeen: 1679691834717, online: true },
         leveling: { level: 27, exp: 3458, totalExp: 205145 }
-    }```
+    }
+```
   
 ___
  
