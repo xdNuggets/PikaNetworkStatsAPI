@@ -1,5 +1,5 @@
 # PikaNetworkStatsAPI
-This API uses PikaNetworks public API (accessible via https://stats.pika-network.net/api/profile/{username}/) to bring you a simple npm package to use these for your project.
+This API uses PikaNetworks public API (accessible via https://stats.pika-network.net/api/profile/{username}/) to bring you a simple npm package to use for your project.
 
 # Installation
 The easiest way to install this is by using `npm install pikastatsapi`.
