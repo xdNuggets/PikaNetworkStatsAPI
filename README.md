@@ -95,8 +95,9 @@ ___
  
 > ```isDiscordVerified(username)```
 > Pretty self explanatory. Returns a boolean based on whether the user has their discord verified by the discord bot or not.<br>
- Example: `console.log(isDiscordVerified('not_Nuggets'));`<br>
- Output: `true`
+
+Example: `console.log(isDiscordVerified('not_Nuggets'));`<br>
+Output: `true`
  
 ___
  
