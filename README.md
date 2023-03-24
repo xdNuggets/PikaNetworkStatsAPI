@@ -70,7 +70,8 @@ ___
 
 Example: `console.log(getClan('not_Nuggets'));`<br>
 Output:
-``` {
+``` 
+    {
         name: 'DEMONIC',
         tag: 'DEMONIC',
         currentTrophies: 0,
