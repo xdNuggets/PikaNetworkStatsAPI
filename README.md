@@ -1,6 +1,9 @@
 # PikaNetworkStatsAPI
 This API uses PikaNetworks public API (accessible via https://stats.pika-network.net/api/profile/{username}/) to bring you a simple npm package to use these for your project.
 
+# Installation
+The easiest way to install this is by using `npm install pikastatsapi`.
+
 # Documentation
 Here's a simple list of each function I have created so far. It should be pretty self explanatory what they return from their names, but I'll give a short summary anyway.
 
@@ -104,6 +107,7 @@ ___
  # TODO
  - [] Implement Leaderboard Support
  - [] Rename project and implement JartexNetwork support.
+ - [] Python module
  
  # Contribution
  If you want to contribute to this project, simply open a pull request with your code, and I'll decide if I want to add it
