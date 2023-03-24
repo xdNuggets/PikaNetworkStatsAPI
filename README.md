@@ -105,9 +105,10 @@ Output: `true`
 ___
  
  # TODO
- - [] Implement Leaderboard Support
+ - [] Implement Leaderboard Statistics
  - [] Rename project and implement JartexNetwork support.
  - [] Python module
+ - [] Gamemode Statistics
  
  # Contribution
  If you want to contribute to this project, simply open a pull request with your code, and I'll decide if I want to add it.
