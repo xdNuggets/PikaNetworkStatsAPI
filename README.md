@@ -110,7 +110,10 @@ ___
  - [] Python module
  
  # Contribution
- If you want to contribute to this project, simply open a pull request with your code, and I'll decide if I want to add it
+ If you want to contribute to this project, simply open a pull request with your code, and I'll decide if I want to add it.
+ You can also suggest me ideas for the project by shooting me a DM via Discord. But don't just send me "hi". Send me the suggestion straight on.
+ [![Discord Presence](https://lanyard.cnrad.dev/api/784457955156033556)](https://discord.com/users/784457955156033556)
+ 
  
  # Support Me
  Lastly, if you want to support me for making this awful package, you can buy me a Kofi!
