@@ -12,20 +12,21 @@ Here's a simple list of each function I have created so far. It should be pretty
 Returns the players owned ranks in a list. The data includes the displayName, LuckPerms name (i.e, Titan is called `games3`), and the server it is owned on (i.e MiniGames is called `games`
 
 Example: `console.log(getRanks('not_Nuggets'));`
-Output: ```[
-    {
-      name: 'games3',
-      displayName: 'Titan',
-      server: 'games',
-      season: null
-    },
-    {
-      name: 'practice3',
-      displayName: 'Diamond',
-      server: 'global',
-      season: null
-    }
-  ]```
+Output: 
+    [
+        {
+          name: 'games3',
+          displayName: 'Titan',
+          server: 'games',
+          season: null
+        },
+        {
+          name: 'practice3',
+          displayName: 'Diamond',
+          server: 'global',
+          season: null
+        }
+      ]
  
  
 ___
@@ -34,7 +35,8 @@ ___
 Returns the players friends in a list. The data includes the username of the friend, their lastSeen (in a long), and their online status (boolean).
 
 Example: `console.log(getFriends('not_Nuggets'));`
-Output: ```[
+Output: 
+    [
     { username: 'Titan_Leo', lastSeen: 1672495475354, online: false },
     { username: 'bene_e', lastSeen: 1678556917694, online: false },
     { username: 'Fournes_', lastSeen: 1674241486877, online: false },
@@ -44,7 +46,8 @@ Output: ```[
     { username: 'Il1ann', lastSeen: 1676655494619, online: false },
     { username: 'CreamCheese', lastSeen: 1679602722638, online: false },
     { username: 'Jitterinq', lastSeen: 1679509235577, online: false },
-    { username: 'zornk', lastSeen: 1675959709939, online: false }]```
+    { username: 'zornk', lastSeen: 1675959709939, online: false }
+    ]
 
 
 ___
@@ -60,24 +63,24 @@ ___
 Returns the data of the clan the player is currently in. This includes the name, tag, current trophies (not used on Pika), creation time in YYYY-MM-DD HH:MM:SS format, the members, owner (this includes the username, last seen, and if they're online status (boolean)), and the level of the clan (this includes the current level, EXP, and total EXP)
 
 Example: `console.log(getClan('not_Nuggets'));`
-Output: ```{
-    name: 'DEMONIC',
-    tag: 'DEMONIC',
-    currentTrophies: 0,
-    creationTime: '2023-01-18T16:10:39',
-    members: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    owner: { username: 'Skq1er', lastSeen: 1679691834717, online: true },
-    leveling: { level: 27, exp: 3458, totalExp: 205145 }
-  }```
+    {
+        name: 'DEMONIC',
+        tag: 'DEMONIC',
+        currentTrophies: 0,
+        creationTime: '2023-01-18T16:10:39',
+        members: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object]
+        ],
+        owner: { username: 'Skq1er', lastSeen: 1679691834717, online: true },
+        leveling: { level: 27, exp: 3458, totalExp: 205145 }
+    }
   
 ___
  
