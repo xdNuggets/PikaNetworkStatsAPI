@@ -40,7 +40,7 @@ ___
 
 Example: `console.log(getFriends('not_Nuggets'));`
 Output: 
-```json 
+``` 
     [
     { username: 'Titan_Leo', lastSeen: 1672495475354, online: false },
     { username: 'bene_e', lastSeen: 1678556917694, online: false },
@@ -70,7 +70,7 @@ ___
 
 Example: `console.log(getClan('not_Nuggets'));`
 Output:
-```json {
+``` {
         name: 'DEMONIC',
         tag: 'DEMONIC',
         currentTrophies: 0,
