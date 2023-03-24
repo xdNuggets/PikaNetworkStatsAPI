@@ -15,7 +15,7 @@ ___
 
 Example: `console.log(getRanks('not_Nuggets'));`
 Output: 
-    ```json 
+```json
     [
         {
           name: 'games3',
@@ -29,7 +29,8 @@ Output:
           server: 'global',
           season: null
         }
-      ]```
+      ]
+ ```
  
  
 ___
