@@ -14,7 +14,7 @@ ___
 
 
 > ```getRanks(username)```
-> Returns the players owned ranks in a list. The data includes the displayName, LuckPerms name (i.e, Titan is called `games3`), and the server it is owned on (i.e MiniGames is called `games`
+> Returns the players owned ranks in a list. The data includes the displayName, LuckPerms name (i.e, Titan is called `games3`), and the server it is owned on (i.e MiniGames is called `games`)
 
 Example: `console.log(getRanks('not_Nuggets'));`<br>
 Output: 
