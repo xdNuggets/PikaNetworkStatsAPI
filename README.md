@@ -4,6 +4,21 @@ This API uses PikaNetworks public [API](https://stats.pika-network.net/api/profi
 # Installation
 The easiest way to install this is by using `npm install pikastatsapi`.
 
+
+# Examples
+The simplest way to retreive the data is by creating an async function and then running the function in your project.
+
+```javascript
+const api = require("pikastatsapi");
+
+async function getUserRanks() {
+    const ranks = await api.getRanks("not_Nuggets");
+    console.log(ranks[1]["displayName"])
+}
+
+getUserRanks(); // returns "Diamond"
+```
+
 # Documentation
 Here's a simple list of each function I have created so far. It should be pretty self explanatory what they return from their names, but I'll give a short summary anyway.
 
