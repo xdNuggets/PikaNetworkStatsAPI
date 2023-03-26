@@ -10,13 +10,6 @@ async function getStatsData(username) {
 }
 
 
-async function getRanks(username) {
-    
-    let json = await getStatsData(username);
-
-    let ranks = json['ranks'];
-    return ranks;
-}
 
 
 // Gets a players rank(s)
